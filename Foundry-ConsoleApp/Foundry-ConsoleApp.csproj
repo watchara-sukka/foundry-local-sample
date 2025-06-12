@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="OpenAI" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Foundry-Local\sdk\cs\src\Microsoft.AI.Foundry.Local.csproj" />
+  </ItemGroup>
+
 </Project>

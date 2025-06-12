@@ -14,15 +14,92 @@
         "outputPath": "C:\\project\\iconnext-foundry-local\\Foundry-ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "C:\\project\\iconnext-foundry-local\\Foundry-ConsoleApp\\NuGet.Config",
           "C:\\Users\\TSH\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\bin\\Debug\\net8.0": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\Microsoft.AI.Foundry.Local.csproj": {
+                "projectPath": "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\Microsoft.AI.Foundry.Local.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\Microsoft.AI.Foundry.Local.csproj": {
+      "version": "0.1.0-preview",
+      "restore": {
+        "projectUniqueName": "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\Microsoft.AI.Foundry.Local.csproj",
+        "projectName": "Microsoft.AI.Foundry.Local",
+        "projectPath": "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\Microsoft.AI.Foundry.Local.csproj",
+        "packagesPath": "C:\\Users\\TSH\\.nuget\\packages\\",
+        "outputPath": "C:\\project\\iconnext-foundry-local\\Foundry-Local\\sdk\\cs\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\TSH\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0",
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {}
@@ -41,6 +118,26 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        },
         "net9.0": {
           "targetAlias": "net9.0",
           "imports": [
